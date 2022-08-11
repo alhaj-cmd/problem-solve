@@ -11,8 +11,8 @@ function radianToDegree(radian){
         return'please enter a valid number';
     }
 
-        let Degrees= radian * 57.2958;
-        let Degree = Degrees.toFixed(2);
+        const Degrees= radian * 57.2958;
+        const Degree = Degrees.toFixed(2);
         return Degree;
     
 }

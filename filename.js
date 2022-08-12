@@ -3,11 +3,13 @@
  */
 function isJavaScriptFile(file) {
   if (file.endsWith("js")) {
-      return true;
+    return true;
+    
   }
-  else {
-      return false;
+
+  else{
+    return ("Error!! please check you corrent name");
   }
 }
-const result1 = isJavaScriptFile('image.jpg.');
+const result1 = isJavaScriptFile('image.jpg.js');
 console.log(result1);
